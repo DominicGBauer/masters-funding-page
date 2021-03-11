@@ -1,5 +1,7 @@
 body {
   font-family: Verdana, sans-serif;
+  min-height: 100vh;
+  padding: 2rem;
 }
 
 h3 {
@@ -160,11 +162,6 @@ article {
   width: 48%;
 }
 
-body {
-  min-height: 100vh;
-  padding: 2rem;
-}
-
 *,
 *:before,
 *:after {
@@ -200,4 +197,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.faq-card:not(:first-of-type) {
+  padding-top: 18px;
+}
+
+.question {
+  font-weight: bold;
 }
