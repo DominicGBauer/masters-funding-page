@@ -1,0 +1,203 @@
+body {
+  font-family: Verdana, sans-serif;
+}
+
+h3 {
+  margin: 0;
+}
+
+article {
+  padding: 18px 0;
+  border-radius: 20px;
+}
+
+.gauge-container {
+  max-width: 300px;
+}
+
+.gauge-values {
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana, sans-serif;
+}
+
+.gauge {
+  border: 2px solid #333333;
+  border-radius: 6px;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+
+.gauge:before,
+.gauge:after {
+  content: '';
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.gauge:before {
+  background-image: linear-gradient(
+    to left,
+    transparent 0%,
+    transparent 5%,
+    #333 5%,
+    #333 5.5%,
+    transparent 5.5%,
+    transparent 10%,
+    #333 10%,
+    #333 10.5%,
+    transparent 10.5%,
+    transparent 15%,
+    #333 15%,
+    #333 15.5%,
+    transparent 15.5%,
+    transparent 20%,
+    #333 20%,
+    #333 20.5%,
+    transparent 20.5%,
+    transparent 25%,
+    #333 25%,
+    #333 25.5%,
+    transparent 25.5%,
+    transparent 30%,
+    #333 30%,
+    #333 30.5%,
+    transparent 30.5%,
+    transparent 35%,
+    #333 35%,
+    #333 35.5%,
+    transparent 35.5%,
+    transparent 40%,
+    #333 40%,
+    #333 40.5%,
+    transparent 40.5%,
+    transparent 45%,
+    #333 45%,
+    #333 45.5%,
+    transparent 45.5%,
+    transparent 50%,
+    #333 50%,
+    #333 50.5%,
+    transparent 50.5%,
+    transparent 55%,
+    #333 55%,
+    #333 55.5%,
+    transparent 55.5%,
+    transparent 60%,
+    #333 60%,
+    #333 60.5%,
+    transparent 60.5%,
+    transparent 65%,
+    #333 65%,
+    #333 65.5%,
+    transparent 65.5%,
+    transparent 70%,
+    #333 70%,
+    #333 70.5%,
+    transparent 70.5%,
+    transparent 75%,
+    #333 75%,
+    #333 75.5%,
+    transparent 75.5%,
+    transparent 80%,
+    #333 80%,
+    #333 80.5%,
+    transparent 80.5%,
+    transparent 85%,
+    #333 85%,
+    #333 85.5%,
+    transparent 85.5%,
+    transparent 90%,
+    #333 90%,
+    #333 90.5%,
+    transparent 90.5%,
+    transparent 95%,
+    #333 95%,
+    #333 95.5%,
+    transparent 95.5%,
+    transparent 100%,
+    #333 100%,
+    #333 100.5%,
+    transparent 100.5%
+  );
+}
+
+.gauge:after {
+  background-image: linear-gradient(
+    to left,
+    transparent 0%,
+    transparent 25%,
+    #333 25%,
+    #333 25.5%,
+    transparent 25.5%,
+    transparent 50%,
+    #333 50%,
+    #333 50.5%,
+    transparent 50.5%,
+    transparent 75%,
+    #333 75%,
+    #333 75.5%,
+    transparent 75.5%,
+    transparent 100%,
+    #333 100%,
+    #333 100.5%,
+    transparent 100.5%
+  );
+  height: 30px;
+}
+
+.gauge .fill {
+  background-color: #ffce47;
+  height: 50px;
+}
+
+.calc {
+  width: 48%;
+}
+
+body {
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+*,
+*:focus,
+*:active,
+*:focus:active,
+*:before,
+*:before:focus,
+*:before:active,
+*:before:focus:active,
+*:after,
+*:after:focus,
+*:after:active,
+*:after:focus:active {
+  outline: none;
+}
+
+.wall-of-gratitude-image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.wall-of-gratitude {
+  display: flex;
+  justify-content: left;
+}
+
+.wall-of-gratitude-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
