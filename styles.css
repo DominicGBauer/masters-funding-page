@@ -1,7 +1,7 @@
 body {
   font-family: Verdana, sans-serif;
   min-height: 100vh;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 h3 {
@@ -10,11 +10,10 @@ h3 {
 
 article {
   padding: 18px 0;
-  border-radius: 20px;
 }
 
 .gauge-container {
-  max-width: 300px;
+  width: 300px;
 }
 
 .gauge-values {
@@ -29,7 +28,7 @@ article {
   height: 50px;
   overflow: hidden;
   position: relative;
-  width: 300px;
+  max-width: 300px;
 }
 
 .gauge:before,
