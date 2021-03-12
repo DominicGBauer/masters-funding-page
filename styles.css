@@ -190,6 +190,7 @@ article {
 .wall-of-gratitude {
   display: flex;
   justify-content: left;
+  flex-wrap: wrap;
 }
 
 .wall-of-gratitude-card {
