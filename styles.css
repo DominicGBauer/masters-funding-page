@@ -158,7 +158,7 @@ article {
 }
 
 .calc {
-  width: 85%;
+  width: 87%;
 }
 
 *,
@@ -196,7 +196,6 @@ article {
 .wall-of-gratitude-card {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 12px;
   width: 320px;
