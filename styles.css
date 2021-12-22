@@ -221,3 +221,13 @@ td:first-of-type {
 .dom-picture {
   width: 300px;
 }
+
+.results {
+  width: 350px;
+}
+
+@media screen and (min-width: 400px) {
+  .results {
+    width: 1000px;
+  }
+}
